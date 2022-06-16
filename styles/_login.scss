@@ -268,6 +268,10 @@ aside {
 @media (max-width: 900px) {
   .contenido-mobile {
     display: block;
+
+    .texto{
+      margin: auto;
+    }
   }
   .texto, nav{
     display: none;
@@ -278,14 +282,19 @@ aside {
   }
 
   aside{
+    margin: 20px 0 0 0;
     padding: 0;
     max-width: none;
 
-    
   }
 
   .form{
     max-width: 100%;
+
+    .signBtn{
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
 }

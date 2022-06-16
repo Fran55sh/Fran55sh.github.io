@@ -371,6 +371,9 @@ aside .login .signBtn button:nth-child(3) {
   .contenido-mobile {
     display: block;
   }
+  .contenido-mobile .texto {
+    margin: auto;
+  }
   .texto, nav {
     display: none;
   }
@@ -379,11 +382,21 @@ aside .login .signBtn button:nth-child(3) {
     width: 100%;
   }
   aside {
+    margin: 20px 0 0 0;
     padding: 0;
     max-width: none;
   }
   .form {
     max-width: 100%;
+  }
+  .form .signBtn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
