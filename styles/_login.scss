@@ -45,6 +45,7 @@ aside {
     display: block;
     align-items: center;
     margin: auto;
+    margin-top: 50px;
 
     .imgcontainer {
       text-align: center;
@@ -146,7 +147,6 @@ aside {
 .contenido-imagenes {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
   justify-content: space-evenly;
 
   img {
@@ -161,7 +161,6 @@ aside {
   display: flex;
   flex-direction: column;
   max-width: 40vw;
-  margin-top: 50px;
 
   .texto-principal {
     text-align: justify;
@@ -197,8 +196,7 @@ aside {
     .contenido-imagenes-mobile {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 10px;
-      justify-content: space-evenly;
+      // justify-content: space-evenly;
 
       img {
         border-radius: 7px;
