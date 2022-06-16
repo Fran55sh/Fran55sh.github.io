@@ -140,7 +140,7 @@ aside .login .form .psw a {
 }
 
 aside .login .signBtn {
-  margin: 70px 10px 0;
+  margin: 0 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,6 +184,7 @@ aside .login .signBtn button:nth-child(3) {
   height: 65vh;
   width: 100vw;
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,6 +229,7 @@ aside .login .signBtn button:nth-child(3) {
 .texto .texto-principal {
   text-align: justify;
   font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .waves {
@@ -278,6 +280,7 @@ aside .login .signBtn button:nth-child(3) {
 .contenido-mobile .texto .texto-principal {
   text-align: justify;
   font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .footer {
