@@ -274,8 +274,14 @@ aside {
   }
   .inner-header{
     display: inline-block;
-    margin: auto;
     width: 100%;
+  }
+
+  aside{
+    padding: 0;
+    max-width: none;
+
+    
   }
 
   .form{
