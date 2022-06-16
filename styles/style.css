@@ -173,10 +173,6 @@ aside .login .signBtn button:nth-child(3) {
   border: none;
 }
 
-body {
-  margin: 0;
-}
-
 .header {
   position: relative;
   text-align: center;
@@ -198,7 +194,7 @@ body {
           align-items: center;
 }
 
-.inner-header .contenido-imagenes {
+.contenido-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,7 +206,7 @@ body {
           justify-content: space-evenly;
 }
 
-.inner-header .contenido-imagenes img {
+.contenido-imagenes img {
   border-radius: 7px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -218,7 +214,7 @@ body {
   height: auto;
 }
 
-.inner-header .texto {
+.texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,7 +226,7 @@ body {
   margin-top: 50px;
 }
 
-.inner-header .texto .texto-principal {
+.texto .texto-principal {
   text-align: justify;
   font-size: 1rem;
 }
@@ -243,6 +239,50 @@ body {
   /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
+}
+
+.contenido-mobile {
+  display: none;
+  margin: auto;
+  min-width: 100vw;
+  margin: 0;
+}
+
+.contenido-mobile .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 90%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px;
+}
+
+.contenido-mobile .texto .contenido-imagenes-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenido-mobile .texto .contenido-imagenes-mobile img {
+  border-radius: 7px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30%;
+  height: auto;
+}
+
+.contenido-mobile .texto .texto-principal {
+  text-align: justify;
+  font-size: 1rem;
 }
 
 .footer {
@@ -324,6 +364,23 @@ body {
   }
   .content {
     height: 30vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .contenido-mobile {
+    display: block;
+  }
+  .texto, nav {
+    display: none;
+  }
+  .inner-header {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+  }
+  .form {
+    max-width: 100%;
   }
 }
 
